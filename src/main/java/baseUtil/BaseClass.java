@@ -21,6 +21,7 @@ import com.aventstack.extentreports.Status;
 import common.CommonActions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.HomePage;
+import pages.Login;
 import reports.ExtentReportManager;
 import reports.TestManager;
 import utils.Configuration;
@@ -29,6 +30,7 @@ import static utils.IConstant.*;
 public class BaseClass {
 	public WebDriver driver;
 	public HomePage homePage;
+	public Login login;
 	Configuration configuration;
 	ExtentReports extentReports;
 	ExtentTest extentTest;
@@ -105,6 +107,7 @@ public class BaseClass {
 	
 	public void initClass() {
 		homePage = new HomePage(driver);
+		login = new Login(driver);
 	}
 		
 	@AfterMethod
