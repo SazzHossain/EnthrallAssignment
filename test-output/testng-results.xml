@@ -5,91 +5,79 @@
       <![CDATA[Sleeping ... zZz 3000<br>]]>
     </line>
     <line>
-      <![CDATA[JavascriptExecutor executing ... arguments[0].scrollIntoView(true) to input Text on element ---> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //h2[text()='Contact Us']]<br>]]>
+      <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: (//a[text() = 'Login'])[1]]<---------> is Enabled, true<br>]]>
     </line>
     <line>
-      <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //h2[contains(text(),'Do You Have Any Questions')]] ---> Actual Other Header : Do You Have Any Questions. Expected Other Header : Do You Have Any Questions<br>]]>
+      <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: (//a[text() = 'Login'])[1]]<--------> has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[Sh eikHa sina <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_name']]<br>]]>
+      <![CDATA[mtks483@gmail.com <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> name: username]<br>]]>
     </line>
     <line>
-      <![CDATA[Sleeping ... zZz 3000<br>]]>
+      <![CDATA[Tofael@483 <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //*[@id='password']]<br>]]>
     </line>
     <line>
-      <![CDATA[SheikHasinaPalaiNah@gmail.com <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_email']]<br>]]>
+      <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //i[@id='togglePassword']]<---------> is Enabled, true<br>]]>
     </line>
     <line>
-      <![CDATA[Sleeping ... zZz 3000<br>]]>
+      <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //i[@id='togglePassword']]<--------> has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[Shojon Haranor Bedona Ami Bujhi <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_subject']]<br>]]>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Sleeping ... zZz 3000<br>]]>
-    </line>
-    <line>
-      <![CDATA[I am a GPA 5 <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_experiance']]<br>]]>
+      <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //i[@id='togglePassword']]<--------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 3000<br>]]>
     </line>
     <line>
-      <![CDATA[Amar Vul Hoyeche.....
-Amak Khoma Kore Den.....Pilizzz <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> id: id_message]<br>]]>
+      <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> id: login]<---------> is Enabled, true<br>]]>
     </line>
     <line>
-      <![CDATA[Sleeping ... zZz 3000<br>]]>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.id: login'<--------> has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //button[text()='send now']]<---------> is Enabled, true<br>]]>
+      <![CDATA[Sleeping ... zZz 4000<br>]]>
     </line>
     <line>
-      <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //button[text()='send now']]<--------> has been clicked<br>]]>
+      <![CDATA[Current URL : https://enthrallit.com/dashboard/, Expected URL : https://enthrallit.com/dashboard/<br>]]>
     </line>
     <line>
-      <![CDATA[Sleeping ... zZz 3000<br>]]>
+      <![CDATA[Actual Title is : Enthrall IT - Dashboard ---> And Expected Title is :Enthrall IT - Dashboard<br>]]>
     </line>
     <line>
-      <![CDATA[JavascriptExecutor executing ... arguments[0].scrollIntoView(true) to input Text on element ---> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //h2[text()='Contact Us']]<br>]]>
-    </line>
-    <line>
-      <![CDATA[Sleeping ... zZz 3000<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //div[@class='alert alert-info alert-dismissable']] ---> Actual Other Header : ×
-Something went wrong.. Expected Other Header : ×
-Something went wrong.<br>]]>
+      <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //h1[text()='Dashboard']] ---> Actual Header : Dashboard. Expected Header : Dashboard<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 3000<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-12-11T19:05:25 EST" name="Default suite" finished-at="2024-12-11T19:06:02 EST" duration-ms="37798">
+  <suite started-at="2024-12-11T21:12:37 EST" name="Default suite" finished-at="2024-12-11T21:13:22 EST" duration-ms="45253">
     <groups>
     </groups>
-    <test started-at="2024-12-11T19:05:25 EST" name="Default test" finished-at="2024-12-11T19:06:02 EST" duration-ms="37798">
-      <class name="pagesTest.HomePageTest">
-        <test-method is-config="true" signature="initialReporting()[pri:0, instance:pagesTest.HomePageTest@247310d0]" started-at="2024-12-11T19:05:24 EST" name="initialReporting" finished-at="2024-12-11T19:05:25 EST" duration-ms="173" status="PASS">
+    <test started-at="2024-12-11T21:12:37 EST" name="Default test" finished-at="2024-12-11T21:13:22 EST" duration-ms="45253">
+      <class name="pagesTest.LoginPageTest">
+        <test-method is-config="true" signature="initialReporting()[pri:0, instance:pagesTest.LoginPageTest@6be968ce]" started-at="2024-12-11T21:12:37 EST" name="initialReporting" finished-at="2024-12-11T21:12:37 EST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialReporting -->
-        <test-method is-config="true" signature="beforeClassSetUp()[pri:0, instance:pagesTest.HomePageTest@247310d0]" started-at="2024-12-11T19:05:25 EST" name="beforeClassSetUp" finished-at="2024-12-11T19:05:25 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClassSetUp()[pri:0, instance:pagesTest.LoginPageTest@6be968ce]" started-at="2024-12-11T21:12:37 EST" name="beforeClassSetUp" finished-at="2024-12-11T21:12:37 EST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassSetUp -->
-        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pagesTest.HomePageTest@247310d0]" started-at="2024-12-11T19:05:25 EST" name="initialTest" finished-at="2024-12-11T19:05:25 EST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pagesTest.LoginPageTest@6be968ce]" started-at="2024-12-11T21:12:37 EST" name="initialTest" finished-at="2024-12-11T21:12:37 EST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void pagesTest.HomePageTest.doYouHaveAnyQuestionTest()]]>
+                <![CDATA[public void pagesTest.LoginPageTest.validCredentialTest()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialTest -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pagesTest.HomePageTest@247310d0]" started-at="2024-12-11T19:05:25 EST" name="setUp" finished-at="2024-12-11T19:05:32 EST" duration-ms="6961" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pagesTest.LoginPageTest@6be968ce]" started-at="2024-12-11T21:12:37 EST" name="setUp" finished-at="2024-12-11T21:12:44 EST" duration-ms="7250" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,98 +88,86 @@ Something went wrong.<br>]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="doYouHaveAnyQuestionTest()[pri:0, instance:pagesTest.HomePageTest@247310d0]" started-at="2024-12-11T19:05:32 EST" name="doYouHaveAnyQuestionTest" finished-at="2024-12-11T19:06:01 EST" duration-ms="29459" status="PASS">
+        <test-method signature="validCredentialTest()[pri:0, instance:pagesTest.LoginPageTest@6be968ce]" started-at="2024-12-11T21:12:44 EST" name="validCredentialTest" finished-at="2024-12-11T21:13:21 EST" duration-ms="36591" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sleeping ... zZz 3000<br>]]>
             </line>
             <line>
-              <![CDATA[JavascriptExecutor executing ... arguments[0].scrollIntoView(true) to input Text on element ---> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //h2[text()='Contact Us']]<br>]]>
+              <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: (//a[text() = 'Login'])[1]]<---------> is Enabled, true<br>]]>
             </line>
             <line>
-              <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //h2[contains(text(),'Do You Have Any Questions')]] ---> Actual Other Header : Do You Have Any Questions. Expected Other Header : Do You Have Any Questions<br>]]>
+              <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: (//a[text() = 'Login'])[1]]<--------> has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[Sh eikHa sina <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_name']]<br>]]>
+              <![CDATA[mtks483@gmail.com <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> name: username]<br>]]>
             </line>
             <line>
-              <![CDATA[Sleeping ... zZz 3000<br>]]>
+              <![CDATA[Tofael@483 <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //*[@id='password']]<br>]]>
             </line>
             <line>
-              <![CDATA[SheikHasinaPalaiNah@gmail.com <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_email']]<br>]]>
+              <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //i[@id='togglePassword']]<---------> is Enabled, true<br>]]>
             </line>
             <line>
-              <![CDATA[Sleeping ... zZz 3000<br>]]>
+              <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //i[@id='togglePassword']]<--------> has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[Shojon Haranor Bedona Ami Bujhi <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_subject']]<br>]]>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Sleeping ... zZz 3000<br>]]>
-            </line>
-            <line>
-              <![CDATA[I am a GPA 5 <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_experiance']]<br>]]>
+              <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //i[@id='togglePassword']]<--------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 3000<br>]]>
             </line>
             <line>
-              <![CDATA[Amar Vul Hoyeche.....
-Amak Khoma Kore Den.....Pilizzz <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> id: id_message]<br>]]>
+              <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> id: login]<---------> is Enabled, true<br>]]>
             </line>
             <line>
-              <![CDATA[Sleeping ... zZz 3000<br>]]>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.id: login'<--------> has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //button[text()='send now']]<---------> is Enabled, true<br>]]>
+              <![CDATA[Sleeping ... zZz 4000<br>]]>
             </line>
             <line>
-              <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //button[text()='send now']]<--------> has been clicked<br>]]>
+              <![CDATA[Current URL : https://enthrallit.com/dashboard/, Expected URL : https://enthrallit.com/dashboard/<br>]]>
             </line>
             <line>
-              <![CDATA[Sleeping ... zZz 3000<br>]]>
+              <![CDATA[Actual Title is : Enthrall IT - Dashboard ---> And Expected Title is :Enthrall IT - Dashboard<br>]]>
             </line>
             <line>
-              <![CDATA[JavascriptExecutor executing ... arguments[0].scrollIntoView(true) to input Text on element ---> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //h2[text()='Contact Us']]<br>]]>
-            </line>
-            <line>
-              <![CDATA[Sleeping ... zZz 3000<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //div[@class='alert alert-info alert-dismissable']] ---> Actual Other Header : ×
-Something went wrong.. Expected Other Header : ×
-Something went wrong.<br>]]>
+              <![CDATA[[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //h1[text()='Dashboard']] ---> Actual Header : Dashboard. Expected Header : Dashboard<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 3000<br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- doYouHaveAnyQuestionTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:pagesTest.HomePageTest@247310d0]" started-at="2024-12-11T19:06:01 EST" name="tearUp" finished-at="2024-12-11T19:06:02 EST" duration-ms="1341" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearUp -->
-        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pagesTest.HomePageTest@247310d0]" started-at="2024-12-11T19:06:01 EST" name="afterEachTest" finished-at="2024-12-11T19:06:01 EST" duration-ms="0" status="PASS">
+        </test-method> <!-- validCredentialTest -->
+        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pagesTest.LoginPageTest@6be968ce]" started-at="2024-12-11T21:13:21 EST" name="afterEachTest" finished-at="2024-12-11T21:13:21 EST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void pagesTest.HomePageTest.doYouHaveAnyQuestionTest()]]>
+                <![CDATA[public void pagesTest.LoginPageTest.validCredentialTest()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=doYouHaveAnyQuestionTest status=SUCCESS method=HomePageTest.doYouHaveAnyQuestionTest()[pri:0, instance:pagesTest.HomePageTest@247310d0] output=Sleeping ... zZz 3000<br>]]]>
+                <![CDATA[[TestResult name=validCredentialTest status=SUCCESS method=LoginPageTest.validCredentialTest()[pri:0, instance:pagesTest.LoginPageTest@6be968ce] output=Sleeping ... zZz 3000<br>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="publishReport()[pri:0, instance:pagesTest.HomePageTest@247310d0]" started-at="2024-12-11T19:06:02 EST" name="publishReport" finished-at="2024-12-11T19:06:03 EST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pagesTest.LoginPageTest@6be968ce]" started-at="2024-12-11T21:13:21 EST" name="tearUp" finished-at="2024-12-11T21:13:22 EST" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:pagesTest.LoginPageTest@6be968ce]" started-at="2024-12-11T21:13:22 EST" name="publishReport" finished-at="2024-12-11T21:13:22 EST" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publishReport -->
-      </class> <!-- pagesTest.HomePageTest -->
+      </class> <!-- pagesTest.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

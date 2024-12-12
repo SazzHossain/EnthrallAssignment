@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\msazz\AppData\Local\Temp\testng-eclipse--1411993760\testng-customsuite.xml</span>
+                    <span>C:\Users\msazz\AppData\Local\Temp\testng-eclipse--1812039101\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="pagesTest.HomePageTest" class="method navigator-link" hash-for-method="doYouHaveAnyQuestionTest">doYouHaveAnyQuestionTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="pagesTest.LoginPageTest" class="method navigator-link" hash-for-method="validCredentialTest">validCredentialTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +121,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">pagesTest.HomePageTest</span>
+              <span class="class-name">pagesTest.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="doYouHaveAnyQuestionTest">
-                  </a> <!-- doYouHaveAnyQuestionTest -->
-                  <span class="method-name">doYouHaveAnyQuestionTest</span>
+                  <a name="validCredentialTest">
+                  </a> <!-- validCredentialTest -->
+                  <span class="method-name">validCredentialTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +136,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\msazz\AppData\Local\Temp\testng-eclipse--1411993760\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\msazz\AppData\Local\Temp\testng-eclipse--1812039101\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,11 +145,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;pagesTest.HomePageTest&quot;&gt;
+      &lt;class name=&quot;pagesTest.LoginPageTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;doYouHaveAnyQuestionTest&quot;/&gt;
+          &lt;include name=&quot;validCredentialTest&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- pagesTest.HomePageTest --&gt;
+      &lt;/class&gt; &lt;!-- pagesTest.LoginPageTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -191,14 +191,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'doYouHaveAnyQuestionTest')
-data.setCell(0, 2, 'pagesTest.HomePageTest')
-data.setCell(0, 3, 29459);
+data.setCell(0, 1, 'validCredentialTest')
+data.setCell(0, 2, 'pagesTest.LoginPageTest')
+data.setCell(0, 3, 36591);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -210,30 +210,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">doYouHaveAnyQuestionTest</span>
+              <span class="reporter-method-name">validCredentialTest</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Sleeping ... zZz 3000<br></span>
-                <span class="reporter-method-output">JavascriptExecutor executing ... arguments[0].scrollIntoView(true) to input Text on element ---> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //h2[text()='Contact Us']]<br></span>
-                <span class="reporter-method-output">[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //h2[contains(text(),'Do You Have Any Questions')]] ---> Actual Other Header : Do You Have Any Questions. Expected Other Header : Do You Have Any Questions<br></span>
-                <span class="reporter-method-output">Sh eikHa sina <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_name']]<br></span>
+                <span class="reporter-method-output">[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: (//a[text() = 'Login'])[1]]<---------> is Enabled, true<br></span>
+                <span class="reporter-method-output">[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: (//a[text() = 'Login'])[1]]<--------> has been clicked<br></span>
+                <span class="reporter-method-output">mtks483@gmail.com <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> name: username]<br></span>
+                <span class="reporter-method-output">Tofael@483 <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //*[@id='password']]<br></span>
+                <span class="reporter-method-output">[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //i[@id='togglePassword']]<---------> is Enabled, true<br></span>
+                <span class="reporter-method-output">[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //i[@id='togglePassword']]<--------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //i[@id='togglePassword']]<--------> has been clicked<br></span>
                 <span class="reporter-method-output">Sleeping ... zZz 3000<br></span>
-                <span class="reporter-method-output">SheikHasinaPalaiNah@gmail.com <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_email']]<br></span>
-                <span class="reporter-method-output">Sleeping ... zZz 3000<br></span>
-                <span class="reporter-method-output">Shojon Haranor Bedona Ami Bujhi <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_subject']]<br></span>
-                <span class="reporter-method-output">Sleeping ... zZz 3000<br></span>
-                <span class="reporter-method-output">I am a GPA 5 <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //input[@id='id_experiance']]<br></span>
-                <span class="reporter-method-output">Sleeping ... zZz 3000<br></span>
-                <span class="reporter-method-output">Amar Vul Hoyeche.....
-Amak Khoma Kore Den.....Pilizzz <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> id: id_message]<br></span>
-                <span class="reporter-method-output">Sleeping ... zZz 3000<br></span>
-                <span class="reporter-method-output">[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //button[text()='send now']]<---------> is Enabled, true<br></span>
-                <span class="reporter-method-output">[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //button[text()='send now']]<--------> has been clicked<br></span>
-                <span class="reporter-method-output">Sleeping ... zZz 3000<br></span>
-                <span class="reporter-method-output">JavascriptExecutor executing ... arguments[0].scrollIntoView(true) to input Text on element ---> [[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //h2[text()='Contact Us']]<br></span>
-                <span class="reporter-method-output">Sleeping ... zZz 3000<br></span>
-                <span class="reporter-method-output">[[EdgeDriver: MicrosoftEdge on windows (89be7180c881a796f3b19ce2140f09c7)] -> xpath: //div[@class='alert alert-info alert-dismissable']] ---> Actual Other Header : ×
-Something went wrong.. Expected Other Header : ×
-Something went wrong.<br></span>
+                <span class="reporter-method-output">[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> id: login]<---------> is Enabled, true<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.id: login'<--------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 4000<br></span>
+                <span class="reporter-method-output">Current URL : https://enthrallit.com/dashboard/, Expected URL : https://enthrallit.com/dashboard/<br></span>
+                <span class="reporter-method-output">Actual Title is : Enthrall IT - Dashboard ---> And Expected Title is :Enthrall IT - Dashboard<br></span>
+                <span class="reporter-method-output">[[EdgeDriver: MicrosoftEdge on windows (1efbef00a31018661685e731692c6e9a)] -> xpath: //h1[text()='Dashboard']] ---> Actual Header : Dashboard. Expected Header : Dashboard<br></span>
                 <span class="reporter-method-output">Sleeping ... zZz 3000<br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -241,19 +235,15 @@ Something went wrong.<br></span>
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">pagesTest.HomePageTest</span>
+              <span class="ignored-class-name">pagesTest.LoginPageTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">allTheFooterMenuTest</span>
+                <span class="ignored-method-name">invalidCredentialTest</span>
                 <br/>
-                <span class="ignored-method-name">allTheHeaderMenuTest</span>
-                <br/>
-                <span class="ignored-method-name">titleTest</span>
-                <br/>
-                <span class="ignored-method-name">logoTest</span>
+                <span class="ignored-method-name">loginPageBasicValidationTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -265,38 +255,38 @@ Something went wrong.<br></span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">pagesTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">pagesTest.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">initialReporting</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassSetUp</span>
-                <span class="method-start">189 ms</span>
+                <span class="method-start">198 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">initialTest(public void pagesTest.HomePageTest.doYouHaveAnyQuestionTest())</span>
-                <span class="method-start">198 ms</span>
+                <span class="method-name">initialTest(public void pagesTest.LoginPageTest.validCredentialTest())</span>
+                <span class="method-start">207 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(edge)</span>
-                <span class="method-start">205 ms</span>
+                <span class="method-start">214 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">doYouHaveAnyQuestionTest</span>
-                <span class="method-start">7167 ms</span>
+                <span class="method-name">validCredentialTest</span>
+                <span class="method-start">7464 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearUp</span>
-                <span class="method-start">36629 ms</span>
+                <span class="method-name">afterEachTest(public void pagesTest.LoginPageTest.validCredentialTest(), [TestResult name=validCredentialTest stat...)</span>
+                <span class="method-start">44057 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
-                <span class="method-name">afterEachTest(public void pagesTest.HomePageTest.doYouHaveAnyQuestionTest(), [TestResult name=doYouHaveAnyQuestion...)</span>
-                <span class="method-start">36629 ms</span>
+                <span class="method-name">tearUp</span>
+                <span class="method-start">44058 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">publishReport</span>
-                <span class="method-start">37997 ms</span>
+                <span class="method-start">45463 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
